@@ -11,11 +11,11 @@ function Select({ text, name, options, handleOnChange, value }) {
         // value={value || ''}
       >
         <option>Selecione uma opção</option>
-        {/* {options.map((options) => (
+        {options.map((options) => (
           <option value={options.id} key={options.id}>
             {options.name}
           </option>
-        ))} */}
+        ))}
       </select>
     </div>
   )
